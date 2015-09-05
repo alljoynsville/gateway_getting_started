@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Getting Started
-# So you'd like to get started using the Gateway Agent? You have come to the right place! Be ready to get your hands dirty (well, metaphorically speaking) because we're going to build it from the source.
-
 TARGET_CPU=x86_64
 
 #Building the Gateway Agent
