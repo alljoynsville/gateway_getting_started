@@ -1,6 +1,7 @@
 #!/bin/bash
 
 TARGET_CPU=x86_64
+AJ_ROOT=/root/alljoyn
 
 #Installing a Connector
 #Now it's time to install the Connector sample. The installPackage.sh script can be used to install any Connector app as long as it is set up as a tarball (.tar.gz file) in the proper format.

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 TARGET_CPU=x86_64
+AJ_ROOT=/root/alljoyn
 
 #alljoyn-daemon
 #You'll need to build the alljoyn-daemon from source first.
@@ -154,7 +155,7 @@ cp ~/alljoyn.init /etc/init.d/alljoyn
 # bash -x /etc/init.d/alljoyn start
 # To check that the daemon is running:
 # bash -x /etc/init.d/alljoyn status
-To stop the daemon:
+# To stop the daemon:
 # bash -x /etc/init.d/alljoyn stop
 
 #Building the Gateway Agent
