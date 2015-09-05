@@ -187,7 +187,7 @@ cp ~/alljoyn.init /etc/init.d/alljoyn
 # bash -x /etc/init.d/alljoyn start
 # To check that the daemon is running:
 # bash -x /etc/init.d/alljoyn status
-To stop the daemon:
+# To stop the daemon:
 # bash -x /etc/init.d/alljoyn stop
 
 #Building the Gateway Agent
